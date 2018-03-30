@@ -1,0 +1,83 @@
+.navbar-default .navbar-brand {
+    color: black;
+}
+html{
+    height: 100%;
+}
+body{
+    background:url("https://images.unsplash.com/photo-1504610926078-a1611febcad3?auto=format&fit=crop&w=1400&q=80");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Merriweather', serif;
+}
+
+.center{
+    text-align: center;
+    padding-top: 80px;
+}
+h1,p{
+    color:aliceblue
+}
+
+
+h2>span{
+    color:white;
+}
+
+#login{
+    min-width:250px;
+    background-color: rgba(255,255,255,0.7);
+    padding:0 14px;
+}
+ 
+#login .social-button{
+    margin:12px 0;
+    padding: 12px
+}
+
+.btn-fb{
+    background-color: #3b599d;
+    color:white;
+}
+.btn-fb:hover{
+    background-color: #3b599d;
+    color:white;
+    opacity:0.8;
+}
+
+.btn-tw{
+    background-color: #1DA1F2;
+    color:white;
+    margin-left:12px;
+}
+
+@media (max-width:768px){
+    h1{
+        background-color: green;
+        opacity:0.8;
+    }
+    h2{
+        background-color:green;
+        opacity:0.8;
+    }
+}
+
+@media (min-width:768px){
+    h1,h2{
+        background-color: pink;
+        opacity:0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
